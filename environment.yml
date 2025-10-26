@@ -1,4 +1,4 @@
-name: spectra
+name: spectra_env
 channels:
   - defaults
 dependencies:
@@ -195,7 +195,7 @@ dependencies:
     - rpds-py==0.22.3
     - send2trash==1.8.2
     - setuptools==78.1.1
-    - shadowprover==1.2.56
+    - shadowprover==1.2.58
     - sip==6.7.12
     - six==1.17.0
     - sniffio==1.3.0
@@ -214,4 +214,5 @@ dependencies:
     - wheel==0.45.1
     - widgetsnbextension==4.0.13
     - zipp==3.23.0
+    - pillow==12.0.0
 
