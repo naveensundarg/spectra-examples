@@ -7,9 +7,9 @@ Install Conda: https://anaconda.org/anaconda/conda
 
 ### Python dependencies 
 ```
-conda env create -f environment.yml
 conda init 
-conda activate spectra
+conda env create -f environment.yml
+conda activate spectra_env
 ```
 
 ### Install EProver
@@ -21,4 +21,4 @@ cd eprover
 make rebuild
 ```
 
-Run the examples in the `examples.ipynb.`
+Run the examples in the notebooks
